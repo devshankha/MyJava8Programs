@@ -18,6 +18,14 @@ public class Optiona2 {
 
         System.out.println(gender1.orElse("<N/A>")); //MALE
         System.out.println(emptyGender1.orElse("<N/A>")); //<N/A>
+		
+		
+	 Integer s1 = null;
+	  Optional<Integer> op 
+          = Optional.empty();
+		 
+		  Integer s = op.orElseGet(()->77 );
+		  System.out.println(s);
 
 		
 	}
