@@ -32,6 +32,8 @@ public class TestFlatMap {
 		List<Programmer> l1 = Arrays.asList(p1,p2);
 		l1.stream().map(l->l.getLanguages()).flatMap(l->l.stream())
 		.forEach(s->System.out.print(s+" "));
+		//This will also work
+		    l1.stream().flatMap(p->p.getLanguages().stream()).forEach(s->System.out.print(s+" "));
 		
 	}
 
