@@ -1,3 +1,6 @@
+//Pass an action as a callback
+//The same method supports different completion actions without hardcoding them. 
+//A Consumer does not make execution asynchronous; these callbacks run when accept is called.
 import java.util.function.Consumer;
 
 class Order {
