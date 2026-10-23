@@ -1,3 +1,5 @@
+// Consumer can be used to Update an object.
+//it modifies an object instead of creating a new one
 import java.util.List;
 import java.util.function.Consumer;
 
